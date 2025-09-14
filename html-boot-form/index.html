@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bootstrap-Form</title>
+</head>
+<body>
+    <form action="">
+        <div>
+            <label for="username">Nome e Cognome</label>
+            <input type="text" id="username" autocomplete="off" />
+            
+        </div>
+
+        <div>
+            <label for="birthday">Data di nascita</label>
+            <input type="date" id="birthday"/> 
+        </div>
+
+        <div>
+            <label for="color">Colore preferito</label>
+            <input type="color" id="color"/>
+        </div>
+
+        <div>
+            <label for="avatar">Immagine di profilo</label>
+            <input type="file" id="avatar"/>
+        </div>
+
+        <div>
+            <label for="english">Livello di inglese</label>
+            <input type="range" id="english"/>
+        </div>
+
+        <div>
+            <input type="checkbox" id="privacy" />
+            <label for="privacy">Accetto i termini e le condizioni</label>
+        </div>
+
+        <div>
+            <h3>Qual è il tuo livello professionale?</h3>
+            <input type="radio" id="junior" name="professional-level"/>
+            <label for="junior">Junior</label>
+
+            <input type="radio" id="middle" name="professional-level"/>
+            <label for="middle">Middle</label>
+
+            <input type="radio" id="senior" name="professional-level"/>
+            <label for="senior">Senior</label>
+        </div>
+
+        <div>
+            <label for="message">Messaggio</label>
+            <textarea id="message" rows="5" placeholder="Scrivi qualcosa qui.."></textarea>
+        </div>
+
+        <div>
+            <label for="animal">Animale domestico</label>
+            <select id="animal">
+                <option value=""></option>
+                <option value="dog">Cane</option>
+                <option value="cat">Gatto</option>
+                <option value="chicken">Gallina</option>
+            </select>
+        </div>
+
+        <div>
+            <label for="years">Anni di esperienza</label>
+            <input type="number" id="years" min="1" max="40">
+        </div>
+        <button type="submit">Invia dati</button>
+    </form>
+</body>
+</html>
